@@ -1,0 +1,9 @@
+FROM node:latest
+
+RUN apt-get update && apt-get upgrade -y
+
+RUN apt install net-tools -y
+RUN apt install iputils-ping -y
+RUN apt install ffmpeg -y
+
+
