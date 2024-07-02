@@ -1,3 +1,3 @@
 docker pull node:latest
-docker build -f DockerFile.base -t spottube:base .
+docker build -f Dockerfile.base -t spottube:base .
 
